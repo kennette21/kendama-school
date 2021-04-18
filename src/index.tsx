@@ -3,10 +3,10 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import Playground from "./Playground";
+import Kenflip from "./Kenflip";
 
 ReactDOM.render(
-	<React.StrictMode>{true ? <Playground /> : <App />}</React.StrictMode>,
+	<React.StrictMode>{true ? <Kenflip /> : <App />}</React.StrictMode>,
 	document.getElementById("root")
 );
 

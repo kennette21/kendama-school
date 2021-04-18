@@ -1,4 +1,3 @@
-// import React, { useEffect, useState } from "react";
 import "./App.css";
 import styled, { keyframes } from "styled-components";
 import { ReactComponent as Dama } from "./graphics/damadarkColors.svg";
@@ -6,7 +5,7 @@ import { ReactComponent as Ken } from "./graphics/KendarkColors.svg";
 
 const damaKenFlip = keyframes`
     0%, 10% {
-        transform: translateY(65px) translateX(4px) rotate(5deg);
+        transform: translateY(65px) translateX(4px) rotate(8deg);
     }
     20% {
         transform: rotate(-10deg) translateY(0px) translateX(-3px);
@@ -15,7 +14,7 @@ const damaKenFlip = keyframes`
         transform: rotate(-360deg) translateX(0);
     }
     100% {
-        transform: translateY(65px) translateX(4px) rotate(5deg);
+        transform: translateY(65px) translateX(4px) rotate(8deg);
     }
 `;
 
@@ -57,7 +56,7 @@ const AnimationContianer = styled.div`
 	position: relative;
 `;
 
-function Playground() {
+function Kenflip() {
 	return (
 		<Container>
 			<AnimationContianer>
@@ -68,4 +67,4 @@ function Playground() {
 	);
 }
 
-export default Playground;
+export default Kenflip;
