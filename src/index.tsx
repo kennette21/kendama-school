@@ -4,9 +4,10 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Kenflip from "./Kenflip";
+import GridPlayground from "./GridPlayground";
 
 ReactDOM.render(
-	<React.StrictMode>{true ? <Kenflip /> : <App />}</React.StrictMode>,
+	<React.StrictMode>{true ? <GridPlayground /> : <App />}</React.StrictMode>,
 	document.getElementById("root")
 );
 
