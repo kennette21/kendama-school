@@ -5,9 +5,12 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Kenflip from "./Kenflip";
 import GridPlayground from "./GridPlayground";
+import TrickGraphTesting from "./TrickGraphTesting";
 
 ReactDOM.render(
-	<React.StrictMode>{true ? <GridPlayground /> : <App />}</React.StrictMode>,
+	<React.StrictMode>
+		{false ? <Kenflip /> : <TrickGraphTesting />}
+	</React.StrictMode>,
 	document.getElementById("root")
 );
 
